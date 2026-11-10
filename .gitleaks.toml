@@ -1,0 +1,9 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Public Auth0 SDK metadata: base64 of {name: auth0-spa-js, version: 1.21.0}; not an account credential"
+condition = "AND"
+paths = ['''(?:^|/)services/(?:openai_oauth|account_service)\.py$''']
+regexTarget = "line"
+regexes = ['''^\s*platform_auth0_client\s*=\s*"eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMjEuMCJ9"\s*$''']

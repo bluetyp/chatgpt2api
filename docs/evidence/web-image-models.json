@@ -1,0 +1,70 @@
+{
+  "provenance": "Redacted historical protocol validation summaries; no credentials, account identifiers, prompts, or source filesystem locations included. Not new online tests.",
+  "web_endpoint": "/backend-api/f/conversation",
+  "selector": "top-level model, same ID in prepare",
+  "records": [
+    {
+      "recorded_date": "2026-10-28",
+      "requestedModel": "gpt-image-2",
+      "prepareStatus": 200,
+      "hasConduit": false,
+      "status": 200,
+      "actualModels": [
+        "gpt-image-2"
+      ],
+      "done": true,
+      "hasImage": true,
+      "source_kind": "redacted_protocol_validation"
+    },
+    {
+      "recorded_date": "2026-10-28",
+      "requestedModel": "gpt-image-2.5-flare",
+      "prepareStatus": 200,
+      "hasConduit": false,
+      "status": 200,
+      "actualModels": [
+        "gpt-image-2.5-flare"
+      ],
+      "done": true,
+      "hasImage": true,
+      "source_kind": "redacted_protocol_validation"
+    },
+    {
+      "recorded_date": "2026-10-28",
+      "requestedModel": "gpt-image-2.5-sunburst",
+      "prepareStatus": 200,
+      "hasConduit": false,
+      "status": 200,
+      "actualModels": [
+        "gpt-image-2.5-sunburst"
+      ],
+      "done": true,
+      "hasImage": true,
+      "source_kind": "redacted_protocol_validation"
+    },
+    {
+      "recorded_date": "2026-11-05",
+      "requested_model": "gpt-image-2.6-flare",
+      "actual_model": "gpt-image-2.6-flare",
+      "request_status": 200,
+      "stream_complete": true,
+      "download_status": 200,
+      "prepare": {
+        "status": 200,
+        "prepare_status": "ok",
+        "conduit_present": false,
+        "conduit_is_null": true
+      },
+      "scope": "Web GIF generation; proves model selection for this account at this time, not PNG or native transport completion.",
+      "source_kind": "redacted_protocol_validation"
+    }
+  ],
+  "not_online_verified": [
+    "gpt-image-2.6-sunburst"
+  ],
+  "web_options": {
+    "quality": "prompt hint",
+    "complexity": "prompt hint",
+    "size": "prompt hint"
+  }
+}
